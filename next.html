@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Spesial</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #333; /* Warna latar belakang gelap untuk kontras */
+            color: white; /* Warna teks putih */
+            font-family: 'Arial', sans-serif;
+            box-sizing: border-box;
+            text-align: center; /* Pusatkan teks secara horizontal */
+        }
+
+        .container {
+            display: flex; /* Gunakan flexbox untuk menata elemen secara vertikal */
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px; /* Batasi lebar container */
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7); /* Latar belakang transparan untuk teks */
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .text {
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: center; /* Pastikan teks di dalam div terpusat */
+            background-color: rgba(51, 51, 51, 0.8); /* Sedikit lebih gelap dari body */
+        }
+
+        .text:first-of-type {
+            font-size: 1.3em; /* Ukuran font lebih besar untuk pesan pertama */
+            font-weight: bold;
+        }
+
+        .button {
+            padding: 12px 25px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #66b3ff; /* Warna biru cerah untuk tombol */
+            color: white;
+            text-decoration: none; /* Hapus underline default dari link */
+            display: inline-block; /* Agar bisa menerapkan padding dan margin */
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #4da6ff; /* Warna sedikit lebih gelap saat hover */
+        }
+
+        .text-bottom {
+            font-size: 0.9em;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(51, 51, 51, 0.8);
+            border-radius: 8px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: 20px;
+            }
+            .text {
+                font-size: 1em;
+            }
+            .text:first-of-type {
+                font-size: 1.2em;
+            }
+            .button {
+                font-size: 0.9em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            SATU TITIK DUA KOMAHHHHHH BILA CANTIKKK DONI PUNYAKKKK UWUWUWUUWUWW
+        </div>
+        <div class="text">
+            Semoga kita bisa lebih lama lagi bersamanya, kalau perlu sampai menua bersama wkwk [alay dikit], kalau kamu punya masalah bilang ke aku yaa kita lewati masalah kamu bareng" Okeyy Sayangg
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=6281394995435&text=TerimakasihSayanggg%20(isi%20pesan%20mu)" class="button">BALAS</a>
+        <div class="text text-bottom">
+          LOPYUUHHHH WOEEEE
+        </div>
+    </div>
+</body>
+</html>
